@@ -1,0 +1,33 @@
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hangman</title>
+    <meta name="description" content="Lets play some hangman">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- add our custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body >
+<!-- index is what will hold the game-->
+<div id="index">
+    <!-- Title -->
+    <h1>Time To Guess!</h1>
+    <!-- this div will hold the image of the hangman defaulting with the first image -->
+    <!-- this will be manipulated in the javascript file -->
+    <div class="hangman">
+        <img id="picture" src="./img/hangman1.png" alt="empty man">
+    </div>
+    <!-- word to guess will be added in the javascript file -->
+    <div id="wordToGuess">
+    </div>
+    <!-- this div will hold all of the options for the letters. -->
+    <div id="letterOptions">
+    </div>
+    <!-- calling the script to adjust the above containers -->
+    <script src="./scripts/HangMan.js"></script>
+</div>
+<footer>
+</footer>
+</body>
+</html>
